@@ -1,3 +1,11 @@
+# Create a mininet based topology with 4 containerhosts and one controller switches and run it.
+# •Add link from controller1 to switch 1.
+# •Add link from controller2 to switch 1.
+# •Add link from switch 1 to container 1.
+# •Add link from switch 1 to container 2.
+# •Add link from switch 1 to container 3.
+# •Add link from switch 1 to container 4.
+
 from mininet.net import Mininet
 from mininet.node import RemoteController
 from mininet.node import OVSSwitch

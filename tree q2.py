@@ -1,3 +1,10 @@
+# Make the interfaces up and assign IP addresses to interfaces of containerhosts.
+# Assign IP address 192.168.2.10 to containerhost #1.
+# Assign IP address 192.168.2.20 to containerhost #2.
+# Assign IP address 192.168.2.30 to containerhost #3.
+# Assign IP address 192.168.2.40 to containerhost #4.
+
+
 from mininet.net import Mininet
 from mininet.node import RemoteController
 from mininet.node import OVSSwitch
